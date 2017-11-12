@@ -1,0 +1,17 @@
+# CAEN
+Host caen
+	HostName login.engin.umich.edu
+	User thejman
+	Compression yes
+
+# EECS 484 Autograder Machine
+Host 484ag
+	HostName grader484.eecs.umich.edu
+	User thejman
+	Compression yes
+
+# GitHub
+Host git
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/pub_rsa
